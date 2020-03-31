@@ -1,0 +1,37 @@
+<RelativeLayout android:background="#e1e1e1"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:id="@+id/layout_BillTotal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:weightSum="2">
+        <TextView android:gravity="end"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:text="Total : "
+            android:textSize="20dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_BillTotal"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:text="0 VNĐ"
+            android:textSize="20dp">
+        </TextView>
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_Bill"
+        android:layout_below="@+id/layout_BillTotal"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

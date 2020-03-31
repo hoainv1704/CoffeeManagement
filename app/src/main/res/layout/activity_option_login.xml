@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".OptionLogin">
+
+    <TextView
+        android:id="@+id/tvWelcom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="WELCOME"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="30dp" />
+
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="330dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tvWelcom"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/coffetime_logo1" />
+
+    <TextView
+        android:id="@+id/tvContent1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivLogo"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:text="Who you are?"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/tvContent2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvContent1"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:text="Choose your level for login"
+        android:textSize="15dp"/>
+
+    <Button
+        android:id="@+id/btnAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_below="@+id/tvContent2"
+        android:background="@drawable/button_login"
+        android:text="MANAGER" />
+
+    <Button
+        android:id="@+id/btnStaff"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_below="@+id/btnAdmin"
+        android:background="@drawable/button_login"
+        android:text="STAFF" />
+
+</RelativeLayout>
