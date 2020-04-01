@@ -11,7 +11,7 @@
         android:id="@+id/textView6"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="ADD ACCOUNT LOGIN"
+        android:text="THÊM TÀI KHOẢN"
         android:textStyle="bold"
         android:background="@drawable/bg2"
         android:gravity="center"

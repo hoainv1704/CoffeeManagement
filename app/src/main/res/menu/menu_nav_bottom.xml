@@ -5,20 +5,20 @@
         android:id="@+id/staff"
         android:enabled="true"
         android:icon="@drawable/ic_account"
-        android:title="Staff"/>
+        android:title="Nhân viên"/>
     <item
         android:id="@+id/menu"
         android:enabled="true"
         android:icon="@drawable/ic_menu"
-        android:title="Menu" />
+        android:title="Thực đơn" />
     <item
         android:id="@+id/bill"
         android:enabled="true"
         android:icon="@drawable/ic_bill"
-        android:title="Bill" />
+        android:title="Hóa đơn" />
     <item
         android:id="@+id/account"
         android:enabled="true"
         android:icon="@drawable/ic_staff"
-        android:title="Account" />
+        android:title="Tài khoản" />
 </menu>

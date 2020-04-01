@@ -23,7 +23,7 @@
         android:fontFamily="monospace"
         android:gravity="center"
         android:layout_below="@+id/ivIntro"
-        android:text="MANAGE YOUR BUSINESS EASIER"
+        android:text="CHÀO MỪNG"
         android:textColor="#ffffff"
         android:textStyle="bold"
         android:textSize="20sp" />

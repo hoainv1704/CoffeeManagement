@@ -14,7 +14,7 @@
         android:fontFamily="monospace"
         android:gravity="center"
         android:layout_marginTop="50dp"
-        android:text="WELCOME"
+        android:text="KEN CAFE"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
         android:textSize="30dp" />
@@ -37,7 +37,7 @@
         android:layout_centerHorizontal="true"
         android:gravity="center"
         android:textColor="#FFFFFF"
-        android:text="Who you are?"
+        android:text="Bạn là ai?"
         android:textStyle="bold"
         android:textSize="15dp"/>
 
@@ -49,7 +49,7 @@
         android:layout_centerHorizontal="true"
         android:gravity="center"
         android:textColor="#FFFFFF"
-        android:text="Choose your level for login"
+        android:text="Mời chọn chức vụ của bạn"
         android:textSize="15dp"/>
 
     <Button
@@ -64,7 +64,7 @@
         android:textSize="20sp"
         android:layout_below="@+id/tvContent2"
         android:background="@drawable/button_login"
-        android:text="MANAGER" />
+        android:text="QUẢN LÝ" />
 
     <Button
         android:id="@+id/btnStaff"
@@ -78,6 +78,6 @@
         android:textSize="20sp"
         android:layout_below="@+id/btnAdmin"
         android:background="@drawable/button_login"
-        android:text="STAFF" />
+        android:text="NHÂN VIÊN" />
 
 </RelativeLayout>

@@ -28,7 +28,7 @@
             android:fontFamily="monospace"
             android:gravity="center"
             android:paddingTop="140dp"
-            android:text="Please enter your admin account"
+            android:text="Mời nhập tài khoản quản lý"
             android:textColor="#ffffff"
             android:textSize="14sp" />
 
@@ -96,7 +96,7 @@
             android:textColor="#ffffff"
             android:textSize="20sp"
             android:background="@drawable/button_login"
-            android:text="LOGIN" />
+            android:text="ĐĂNG NHẬP" />
 
     </android.support.v7.widget.CardView>
 
